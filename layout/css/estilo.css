@@ -1,0 +1,22 @@
+/* 
+    Created on : 20/10/2014, 16:05:24
+    Author     : HugoZika
+    Exemplo didático da utilização de Media Querie
+*/
+
+@media screen and (orientation: portrait){
+    /*
+    Modo Retrato - vertical
+    */
+    .horizontal{display: none;}
+    .vertical{display: block;}
+}
+
+
+@media screen and (orientation: landscape){
+    /*
+    Modo paisagem - horizontal
+    */
+    .horizontal{display: block;}
+    .vertical{display: none;}
+}
