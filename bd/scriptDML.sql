@@ -22,7 +22,7 @@ ENGINE = InnoDB;
 CREATE  TABLE IF NOT EXISTS `sitap`.`ArtigoId` (
   `idcategoria` INT NOT NULL ,
   `estilo` VARCHAR(45) NOT NULL ,
-  PRIMARY KEY (`idCategoria`) )
+  PRIMARY KEY (`idcategoria`) )
 ENGINE = InnoDB;
 
 
