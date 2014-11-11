@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('Acesso direto não permitido');
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS

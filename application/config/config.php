@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('Acesso direto não permitido');
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://127.0.0.1/sitApTecVesp2014/';
+$config['base_url']	= 'http://127.0.0.1/sitApTecVesp2014/';
 
 /*
 |--------------------------------------------------------------------------

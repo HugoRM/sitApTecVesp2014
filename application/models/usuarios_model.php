@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('BASEPATH'))
-    exit('Acesso direto não permitido');
+    exit('Acesso direto ao script não é permitido');
 
 class Usuarios_model extends CI_Model {
 
@@ -10,11 +10,16 @@ class Usuarios_model extends CI_Model {
     }
 
     function inserir($data) {
+        //Inserção na tabela usuario
         return $this->db->insert('usuario', $data);
     }
 
     function listar() {
-        $query = $this->db->get('usuario');
+        //Listagem da tabela usuário
+        $query = $this->db
+                ->order_by('nome','asc') //Ordem alfabética
+                ->get('usuario');
+        
         return $query->result();
     }
 
